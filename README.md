@@ -16,7 +16,7 @@ Sebuah sistem informasi pelaporan warga berbasis web yang dirancang khusus untuk
 **Clone repository ini:**
 
    git clone [https://github.com/Doells/lapordesa.git](https://github.com/Doells/lapordesa.git)
-   
+```bash
 **1.Masuk ke direktori proyek:**
 
 cd lapordesa
