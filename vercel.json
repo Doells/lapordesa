@@ -22,9 +22,11 @@
     ],
     "env": {
         "APP_ENV": "production",
-        "APP_DEBUG": "false",
+        "APP_DEBUG": "true",
         "CACHE_DRIVER": "array",
         "SESSION_DRIVER": "cookie",
-        "FILESYSTEM_DISK": "public"
+        "FILESYSTEM_DISK": "public",
+        "LOG_CHANNEL": "stderr",
+        "VIEW_COMPILED_PATH": "/tmp"
     }
 }
