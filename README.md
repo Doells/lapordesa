@@ -16,45 +16,40 @@ Sebuah sistem informasi pelaporan warga berbasis web yang dirancang khusus untuk
 **Clone repository ini:**
 
    git clone [https://github.com/Doells/lapordesa.git](https://github.com/Doells/lapordesa.git)
-```bash
-**1.Masuk ke direktori proyek:**
 
+**1.Masuk ke direktori proyek:**
+```bash
 cd lapordesa
 
 **2.Install dependensi Composer:**
-
+```bash
 composer install
-
+```bash
 **3.Siapkan pengaturan Environment:**
 
 Salin file konfigurasi bawaan.
-
+```bash
 cp .env.example .env
-
+```bash
 **4.Konfigurasi Database Supabase:**
 
 Buka file .env dan atur koneksi PostgreSQL menggunakan jalur Pooler (IPv4) agar kompatibel dengan jaringan lokal ISP Indonesia:
-
+```bash
 DB_CONNECTION=pgsql
-
 DB_HOST=aws-1-ap-south-1.pooler.supabase.com
-
 DB_PORT=6543
-
 DB_DATABASE=postgres
-
 DB_USERNAME=postgres.[ID_PROJECT_SUPABASE]
-
 DB_PASSWORD=[PASSWORD_DATABASE]
-
+```bash
 **5.Generate Application Key:**
-
+```bash
 php artisan key:generate
-
+```bash
 **6.Jalankan server lokal:**
-
+```bash
 php artisan serve
-
+```bash
 **Aplikasi dapat diakses melalui http://localhost:8000.**
 
 ## 🌍 Catatan Deployment Vercel (Serverless) ##
