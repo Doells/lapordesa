@@ -33,12 +33,12 @@ cp .env.example .env
 **4.Konfigurasi Database Supabase:**
 Buka file .env dan atur koneksi PostgreSQL menggunakan jalur Pooler (IPv4) agar kompatibel dengan jaringan lokal ISP Indonesia:
 
-DB_CONNECTION=pgsql
-DB_HOST=aws-1-ap-south-1.pooler.supabase.com
-DB_PORT=6543
-DB_DATABASE=postgres
-DB_USERNAME=postgres.[ID_PROJECT_SUPABASE]
-DB_PASSWORD=[PASSWORD_DATABASE]
+DB_CONNECTION=pgsql;
+DB_HOST=aws-1-ap-south-1.pooler.supabase.com;
+DB_PORT=6543;
+DB_DATABASE=postgres;
+DB_USERNAME=postgres.[ID_PROJECT_SUPABASE];
+DB_PASSWORD=[PASSWORD_DATABASE];
 
 **5.Generate Application Key:**
 
