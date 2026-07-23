@@ -12,7 +12,7 @@
         <!-- Header -->
         <header class="mb-8 text-center">
             <h1 class="text-4xl font-bold text-blue-700 mb-2">LaporDesa</h1>
-            <p class="text-slate-500">Portal Digitalisasi & Pengaduan Warga Desa Jimbaran Wetan</p>
+            <p class="text-slate-500">Portal Digitalisasi & Pengaduan Warga Desa</p>
         </header>
 
         <!-- Pesan Sukses -->
